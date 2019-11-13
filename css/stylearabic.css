@@ -1,0 +1,246 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color:rgb(117, 117, 117);
+}
+a:hover{
+    color: #fff;
+}
+
+main{
+    display: flex;
+    background-color:#eee;
+   
+    min-height: 630px;
+
+}
+.seclist{
+    background-image: url('../img/images.jpg');
+    background-attachment: fixed;
+    background-position: left left;
+    background-repeat: no-repeat;
+    background-size: cover;
+   min-height: 630px;
+    width: 20%;
+    box-shadow: 6px 1px 9px  rgb(117, 117, 117);
+
+}
+.overlist{
+    background-color: rgba(250, 248, 248, 0.9);
+    min-height: 630px;
+    padding-right: 20px;
+
+}
+.hcreative{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-right:30% ;
+    padding-top: 10%;
+    padding-bottom: 8%;
+}
+.hrcreative{
+    width: 240px;
+    height: 1px;
+    border:none;
+    background-color:rgb(206, 202, 202) ;
+    margin-left:5% ;
+}
+.flex{
+    width: 200px;
+    height: 50px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding-right: 50px;
+    padding-top: 15px;
+    margin-left: 12%;
+    color: rgb(110, 108, 108);
+}
+.Dashboard{
+    margin-top: 10px;
+}
+.flex:hover{
+    background-color: #9C27B0;
+    color: #fff;
+}
+.secchart{
+    flex: 80%;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.divpdash{
+    padding-top: 2%;
+    padding-right: 3%;
+    flex:10%;
+}
+.pdash{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navicon{
+    flex:30%;
+}
+.navicon{
+    padding-top: 2%;
+    padding-right: 20%;
+}
+.icon{
+    padding-right: 8%;
+}
+.boxsearch{
+background-color: #eee;
+border: none;
+border-bottom: 1px solid rgb(172, 170, 170);
+padding-left: 0px;
+padding-bottom:10px ;
+}
+.backsearch{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: inline-block;
+}
+.search{
+    padding-top: 12px;
+    padding-right: 12px;
+     color: rgb(126, 125, 125);
+}
+.divbell{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: #fff;
+    background-color: red;
+}
+.lbl5{
+    padding-right: 6px;
+    color:#fff;
+}
+
+.divbellicon{
+    display: inline-block;
+}
+.divsflex1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.upfile{
+    height: 150px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 2px 3px 4px rgb(211, 208, 208);
+    margin-right: 1%;
+}
+.file{
+    display: flex;
+    margin-bottom: 25px;
+    justify-content: space-around;
+   
+}
+.divicon{
+    height: 80px;
+    width: 80px;
+    border-radius: 4px;
+    padding-right:25px;
+    padding-top:25px ;
+    margin-left: 15px;
+    margin-top: -20px;
+    box-shadow: 2px 3px 4px rgb(211, 208, 208);
+}
+.divicon{
+    background-color: #FC9209;
+}
+.divstore{
+    background-color: #4AA64E;
+}
+.divinfo{
+    background-color: #E94440;
+}
+.divtwitter{
+    background-color: #0FB7CB;
+}
+.flexicon{
+    font-size: 30px;
+    color: #fff;
+}
+.pfile{
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(167, 162, 162) ;
+    margin-top: 10px;
+}
+.pnum{
+    margin-top: 8px;
+    font-size: 30px;
+ 
+
+}
+hr{
+    width: 240px;
+    height: 1px;
+    border:none;
+    background-color: rgb(206, 203, 203);
+    margin-left: 5%;
+}
+.warning{
+    color: red;
+}
+.lblget{
+    color: #9C27B0;
+}
+.divwarn,.divcalender{
+    margin-top: 10px;
+    margin-right: 12px;
+}
+.calender,.lblhour{
+    color:rgb(155, 151, 151) ;
+}
+.divsflex1{
+    margin-top: 60px;
+    margin-bottom: 50px;
+
+}
+.divchart{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.chart1{
+    height: 290px;
+    width:300px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-left: 1%;
+}
+.spanup{
+    color: #4AA64E;
+}
+.pdaily{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.hr2{
+    margin-top:20px;
+    margin-bottom:10px;
+    margin-left: 1px;
+}
+.divdaily{
+    margin-right: 5%;
+}
+.curve{
+    background-color: #4AA64E;
+    margin-top: -40px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+   border-radius: 5px;
+}

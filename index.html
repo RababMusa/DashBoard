@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+    
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Year', 'Sales', 'Expenses'],
+          ['2004',  1000,      400],
+          ['2005',  1170,      460],
+          ['2006',  660,       1120],
+          ['2007',  1030,      540]
+          
+        ]);
+       
+      
+        var options = {
+          title: 'Company Performance',
+          curveType: 'function',
+          legend: { position: 'center center' },
+          backgroundColor:"#4AA64E"
+        //borderRadius = "25px",
+       
+        };
+        
+         
+        var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+        
+        chart.draw(data, options);
+      }
+    </script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawVisualization);
+
+      function drawVisualization() {
+        // Some raw data (not necessarily accurate)
+        var data = google.visualization.arrayToDataTable([
+          ['Month', 'Bolivia', 'Ecuador', 'Madagascar', 'Papua New Guinea', 'Rwanda', 'Average'],
+          ['2004/05',  165,      938,         522,             998,           450,      614.6],
+          ['2005/06',  135,      1120,        599,             1268,          288,      682],
+          ['2006/07',  157,      1167,        587,             807,           397,      623],
+          ['2007/08',  139,      1110,        615,             968,           215,      609.4],
+          ['2008/09',  136,      691,         629,             1026,          366,      569.6]
+        ]);
+
+        var options = {
+           seriesType: 'bars',
+           backgroundColor:"#FC9209",
+           //borderRadius = "25px",
+                };
+
+        var chart = new google.visualization.ComboChart(document.getElementById('chart_div'));
+        chart.draw(data, options);
+      }
+    </script>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script type="text/javascript">
+    google.charts.load('current', {'packages':['corechart']});
+    google.charts.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+
+      var data = google.visualization.arrayToDataTable([
+        ['Task', 'Hours per Day'],
+        ['Work',     11],
+        ['Eat',      2],
+        ['Commute',  2],
+        ['Watch TV', 2],
+        ['Sleep',    7]
+      ]);
+
+      var options = {
+        title: 'My Daily Activities',
+        backgroundColor:"#E94440",
+        //borderRadius = "25px",
+      };
+
+      var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+
+      chart.draw(data, options);
+    }
+  </script>
+    <title>DashBoard</title>
+</head>
+<body>
+    <main>
+        <section class="seclist">
+            <div class="overlist">
+                <p class="hcreative">CREATIVE TIM</p>
+                <hr class="hrcreative">
+                <div class="flexlist">
+                    <div class="flex Dashboard ">
+                        <span class="fas fa-th-list"></span>
+                        <label><a href="index.html">Dashboard</a></label>
+                    </div>
+                    <div class="flex user">
+                        <span class="fas fa-user"></span>
+                        <label><a href="index2.html">User Profile</a></label>
+                    </div>
+                    <div class="flex tablelist">
+                        <span class="far fa-clipboard"></span>
+                        <label><a href="index3.html">Table List</a></label>                 
+                    </div>
+                    <div class="flex typography">
+                        <span class="fas fa-file-alt"></span>
+                        <label>Typography</label>    
+                    </div>
+                    <div class="flex icons">
+                        <span class="fas fa-spinner"></span>
+                        <label>Icons</label>  
+                    </div>
+                    <div class="flex maps">
+                        <span class="fas fa-map-marker-alt"></span>
+                        <label>Maps</label> 
+                    </div>
+                    <div class="flex notifications">
+                            <span  class="fas fa-bell"></span>
+
+                        <label>Notifications</label> 
+                    </div>
+                    <div class="flex up">
+                            <span class="fas fa-globe"></span>
+                        <label>RTL Support</label> 
+                    </div>
+                    <div class="flex upgrade">
+                        <span  class="fas fa-cloud-upload-alt"></span>
+                        <label>Upgrade to </label>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="secchart">
+        <header class="header">
+            <div class="divpdash">
+                    <p class="pdash">Dashboard</p>
+            </div>
+                <div class="navicon">
+                <input type="search" class="boxsearch icon" placeholder="Search...">
+                <div class="backsearch">
+                        <span class="fas fa-search  search icon"></span>
+                </div>
+                <span class="fas fa-th-list icon"></span>
+                <div class="divbellicon icon">
+                                <div class="divbell">
+                                    <label class="lbl5">5</label>
+                                    <span  class="fas fa-bell icon">
+                                        </span>
+                                </div>
+                </div>
+                <span class="fas fa-user icon"></span>
+            </div>
+        </header>
+        <div class="divsflex1">
+            <div class="upfile">
+            <div class="file">
+                <div class="divicon divfile">
+                    <span class="far fa-clone flexicon"></span>
+                </div>
+                <div class="pusedgb">
+                        <p class="pfile">Used Space</p>
+                        <p class="pnum">49/50 GB</p>
+                </div>
+            </div>
+            <hr>
+            <div class="divwarn">
+            <span class="fas fa-exclamation-triangle warning"></span>
+            <label class="lblget">Get More Space...</label>
+        </div>
+        </div>
+        <div class="upfile">
+                <div class="file">
+                    <div class="divicon divstore">
+                        <span class="fas fa-store-alt flexicon"></span>
+                    </div>
+                    <div class="pusedgb">
+                            <p class="pfile">Revenue</p>
+                            <p class="pnum">$34,245</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="divcalender">
+                    <span class="far fa-calendar-alt calender"></span>
+                <label class="lblhour">Last 42 Hours</label>
+            </div>
+            </div>
+            <div class="upfile">
+                    <div class="file">
+                        <div class="divicon divinfo">
+                            <span class="fas fa-info-circle flexicon"></span>
+                        </div>
+                        <div class="pusedgb">
+                                <p class="pfile">Fixed Issues</p>
+                                <p class="pnum">75</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="divcalender">
+                        <span class="fas fa-tag calender"></span>
+                    <label class="lblhour">Tracked From Githup</label>
+                </div>
+                </div>
+                <div class="upfile">
+                        <div class="file">
+                            <div class="divicon divtwitter">
+                                <span class="fab fa-twitter flexicon"></span>
+                            </div>
+                            <div class="pusedgb">
+                                    <p class="pfile">Followers</p>
+                                    <p class="pnum">+245</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="divcalender">
+                            <span class="far fa-clock calender"></span>
+                        <label class="lblhour">Just Update</label>
+                    </div>
+                    </div>
+        </div>
+        <div class="divchart">
+            <div class="chart1">
+                    <div id="curve_chart" style="width: 250px; height: 200px" class="curve" ></div>
+                <div class="divdaily">
+                <p class="pdaily">Daily Sales</p>
+                <span class="fas fa-long-arrow-alt-up spanup"></span>
+                <label class="lblhour"><span class="spanup">55%</span>increase in today sales</label>
+                <hr class="hr2">
+                <span class="far fa-clock calender"></span>
+                <label class="lblhour">Update 4 minutes ago</label>
+         
+            </div>
+            
+            </div>
+            <div class="chart1">
+                    <div id="chart_div" style="width: 250px; height: 200px;" class="curve"></div>
+                <div class="divdaily">
+                <p class="pdaily">Email Subsicriptions</p>
+                <label class="lblhour">Last Compaign Performance</label>
+                <hr class="hr2">
+                <span class="far fa-clock calender"></span>
+                <label class="lblhour">Compaign Sent 2 days ago</label>
+         
+            </div>
+            
+            </div>
+            <div class="chart1">
+                    <div id="piechart" style="width: 250px; height: 200px;" class="curve"></div>
+                <div class="divdaily">
+                <p class="pdaily">Completed Tasks</p>
+                <label class="lblhour">Last Compaign Performance</label>
+                <hr class="hr2">
+                <span class="far fa-clock calender"></span>
+                <label class="lblhour">Update 4 minutes ago</label>
+         
+            </div>
+            
+            </div>
+        </div>
+        </section>
+    </main>
+</body>
+</html>

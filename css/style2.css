@@ -1,0 +1,241 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color:rgb(117, 117, 117);
+}
+a:hover{
+    color: #fff;
+}
+main{
+    display: flex;
+    background-color:#eee;
+   
+    min-height: 630px;
+
+}
+.seclist{
+    background-image: url('../img/images.jpg');
+    background-attachment: fixed;
+    background-position: left left;
+    background-repeat: no-repeat;
+    background-size: cover;
+   min-height: 630px;
+    width: 20%;
+    box-shadow: 6px 1px 9px  rgb(117, 117, 117);
+
+}
+.overlist{
+    background-color: rgba(250, 248, 248, 0.9);
+    min-height: 630px;
+}
+.hcreative{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left:22% ;
+    padding-top: 10%;
+    padding-bottom: 8%;
+}
+.hrcreative{
+    width: 240px;
+    height: 1px;
+    border:none;
+    background-color:rgb(206, 202, 202) ;
+    margin-left:5% ;
+}
+.flex{
+    width: 200px;
+    height: 50px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding-left: 50px;
+    padding-top: 15px;
+    margin-left: 12%;
+    color: rgb(110, 108, 108);
+}
+.Dashboard{
+    margin-top: 10px;
+}
+.flex:hover{
+    background-color: #9C27B0;
+    color: #fff;
+}
+.secchart{
+    flex: 80%;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.divpdash{
+    padding-top: 2%;
+    padding-left: 3%;
+    flex:10%;
+}
+.pdash{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navicon{
+    flex:20%;
+}
+.navicon{
+    padding-top: 2%;
+    padding-left: 20%;
+}
+.icon{
+    padding-left: 8%;
+}
+.boxsearch{
+border: none;
+border-bottom: 1px solid rgb(172, 170, 170);
+padding-left: 0px;
+padding-bottom:10px ;
+}
+.boxsearch{
+    background-color: #eee;
+}
+.name,.email,.City,.Country,.PostalCode{
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+.first,.last{
+    background-color: #fff;
+width: 260px;
+margin-bottom: 20px;
+
+}
+.address{
+    background-color: #fff;
+    width: 535px;
+    margin-bottom: 20px;
+
+}
+.name,.email,.last,.Country,.PostalCode{
+margin-left: 10px;
+}
+.company{
+    background-color: #fff;
+    border-bottom: 1px dotted rgb(172, 170, 170);
+    margin-bottom: 20px;
+}
+.backsearch{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: inline-block;
+}
+.search{
+    padding-top: 12px;
+    padding-left: 12px;
+     color: rgb(126, 125, 125);
+}
+.divbell{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: #fff;
+    background-color: red;
+}
+.lbl5{
+    padding-left: 6px;
+    color:#fff;
+}
+
+.divbellicon{
+    display: inline-block;
+}
+.sectwo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.profile{
+    height:500px ;
+    width: 600px;
+    background-color:#fff ;
+    border-radius: 6px;
+    box-shadow: 6px 1px 9px  rgb(117, 117, 117);
+    margin-top: 40px;
+}
+.info{
+    height:300px ;
+    width: 300px;
+    background-color:#fff ;
+    border-radius: 3px;
+    box-shadow: 6px 1px 9px  rgb(117, 117, 117);
+}
+.rectangel{
+    width:550px;
+    height: 100px;
+    background-color: #9C27B0;
+    border-radius: 5px;
+    margin-left: 4%;
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+.hrectangel,.prectangel{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.pabout{
+    color: rgb(126, 125, 125);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 15px;
+    margin-left: 4%;
+    font-size: 15px;
+}
+.inputdiv{
+    margin-left: 4%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.hrabout{
+    width: 550px;
+    margin-top: 45px;
+    margin-left: 4%;
+}
+.btnupdate{
+    height:40px ;
+    width:130px ;
+    background-color: #9C27B0;
+    border: none;
+    border-radius: 3px ;
+    color: #fff;
+    margin-left: 445px;
+    margin-top: 15px;
+}
+.img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    box-shadow: 4px 1px 5px  rgb(117, 117, 117);
+    margin-top: -40px;
+    margin-left: 85px;
+}
+.pimg{
+    text-align: center;
+    padding-top: 10px;
+    color: rgb(126, 125, 125);
+    font-size: 15px;
+}
+.alce{
+    color: rgb(90, 89, 89);
+}
+.btninfo{
+    height:40px ;
+    width:120px ;
+    background-color: #9C27B0;
+    border: none;
+   border-radius: 40px;
+    color: #fff;
+    margin-left: 85px;
+    margin-top: 15px;
+}
